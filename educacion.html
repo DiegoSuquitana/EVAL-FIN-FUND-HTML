@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Diego Suquitana">
+		<meta name="description" content="HOJA DE VIDA DIGITAL">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+		<title>HOJA DE VIDA DIGITAL</title>
+	</head>
+
+	<body>
+
+		<header>
+				<h1> Hoja de Vida </h1>
+				<h2>Nombre: <h2>
+					<h3>Diego Xavier</h3>
+				<h2>Apellido: </h2>
+					<h3>Suquitana Abad</h3>
+				<h2>Fecha y Lugar de Nacimientos: </h2>
+					<h3> 15 de Mayo de 1989, Azogues </h3>
+		</header>
+
+		<navbar>
+				<ul>
+					<li> <a href="index.html">Inicio</a> </li>
+					<li> <a href="educacion.html">Educaci&oacute;n </a></li>
+					<li> <a href="experiencia.html">Experiencia </a></li>
+				</ul>
+		</navbar>
+		<section>
+			<h2>Educaci&oacute;n</h2>
+			<table border="1" cellpadding="10" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Ano</th>
+					<th>Institucion</th>
+					<th>Lugar</th>
+					<th>Culmino?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>AIRLAN</td>
+					<td>355</td>
+					<td>ATERRIZO</td>
+					<td>2:45PM</td>
+				</tr>
+			</tbody>
+		</table>
+		<form autocomplete="on" name="agregar-estudio" class="" action="educacion.html" method="post">
+			<fieldset>
+				<legend>Agregar Estudios</legend>
+				<p>
+				<label for="anio">Ano: </label>
+				<select id="anio">
+					<option>2010</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+					<option>2014</option>
+					<option>2015</option>
+					<option>2016</option>
+					<option>2017</option>
+				</select>
+			</p>
+			<p>
+				<label for="institucion">Instituci&oacute;n: </label>
+				<input type="text" id="institucion" required>
+			</p>
+			<p>
+				<label for="lugar">Lugar: </label>
+				<input type="text" id="lugar">
+			</p>
+			<p>
+				<label for="culmino">Culmino?: </label>
+				<b>si</b><input type="radio" name="culmino">
+				<b>no</b><input type="radio" name="culmino">
+			</p>
+			<p>
+				<input type="submit" value="enviar">
+			</p>
+			</fieldset>
+		</form>
+		</section>
+		<footer>
+			<p>
+				<b>Correo Electr&oacute;nico: </b> sistemasdxsa@hotmail.com <br>
+				<b>Tel&eacute;fono: </b> 0987-41-25-60 <br>
+				<b>Redes Socilaes: </b> diego.suquitana <br>
+				<b>Direccion: </b> Biblian-Ecuador <br>
+			</p>
+		</footer>
+	</body>
+</html>
